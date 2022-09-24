@@ -1,0 +1,30 @@
+{
+  "name": "frenchtoastbot-ts",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node .",
+    "test": "tsc && node dist/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaBanana2577/frenchtoastbot-ts.git"
+  },
+  "keywords": [],
+  "author": "Anna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnnaBanana2577/frenchtoastbot-ts/issues"
+  },
+  "homepage": "https://github.com/AnnaBanana2577/frenchtoastbot-ts#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "discord.js": "^14.4.0",
+    "dotenv": "^16.0.2",
+    "quick.db": "^9.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.60"
+  }
+}
